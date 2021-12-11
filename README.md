@@ -24,6 +24,11 @@ This tool will act like a proxy. This has many usefull examples like acting like
 - Usage: python3 TCP_proxy.py [target] [port] [remote server] [remote port] [receive first]
 - Example: python3 TCP_proxy.py 192.168.1.203 21 ftp.sun.ac.za 21 True.
 
+In the underneath example, I've setup a FTP server running on my localhost. On my host I run the proxy that will send the incoming connections to the FTP server.
+On the right screen you see a FTP client connecting to my proxy. All the network traffic can be seen on the proxy between it.
+
+<img src="Images/TCP_proxy.png">
+
 [Receive first] must be True for FTP servers. Because most FTP servers first send a banner when connecting to it.
 
 ### [Netcat](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/netcat.py)
