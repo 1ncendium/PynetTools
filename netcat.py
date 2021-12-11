@@ -89,7 +89,7 @@ class NetCat:
         self.socket.listen(5)
         
         # start to listen in a loop
-        print("Waiting for connection...")
+        print(f"Listening on {self.args.target}:{self.args.port}...")
         while True:
             try:
                 client_socket, _ = self.socket.accept()
@@ -169,6 +169,7 @@ if __name__ == '__main__':
         We define the arguments, and define how we want the program -
         to behave. Also, we give some examples of how to use the args.
     """
+
     parser = argparse.ArgumentParser(
         description='Personal Net Tool',
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -186,6 +187,22 @@ if __name__ == '__main__':
     parser.add_argument('-t', '--target', default='192.168.1.203', help='specified IP')
     parser.add_argument('-u', '--upload', help='upload file')
     args = parser.parse_args()
+
+    intro = """ 
+    netcat.py by Incendium, inspired by Black Hat Python 2nd edition.
+    Remember to use EOF (CTRL + D) when you are willing to read the output from commands and shell.
+    """
+
+    print(intro)
+
+    if len(sys.argv[1:]) < 2:
+        print("netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]")
+        print("")
+        print(parser.epilog)
+        sys.exit(0)
+
+    if "-e" in sys.argv:
+        print("remember this..")
 
     if args.listen:
         buffer = ''
