@@ -4,29 +4,29 @@ Some usefull network tools for when you do not have access to basic tools like n
 <img src="Images/snake.png">
 
 ## Tools included
-### ["TCP_client"](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/TCP_client.py)
+### [TCP_client](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/TCP_client.py)
 Quickly setup your TCP_client, you can fill in the data that you want to send to the server.
 - Usage: python3 TCP_client.py [target] [port]
 - Example: python3 TCP_client.py 192.168.101.8 5555
 
-### ["UDP_client"](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/UDP_client.py)
+### [UDP_client](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/UDP_client.py)
 Quickly setup your UDP_client, you can fill in the data that you want to send to the server.
 - Usage: python3 UDP_client.py [target] [port]
 - Example: python3 UDP_client.py 192.168.101.8 5555
 
-### ["TCP_server"](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/TCP_server.py)
+### [TCP_server](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/TCP_server.py)
 Quickly setup your TCP_server, this script starts a listener for incoming requests
 - Usage: python3 TCP_server.py [target] [port]
 - Example: python3 TCP_server.py 192.168.101.8 5555
 
-### ["TCP_proxy"](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/TCP_proxy.py)
+### [TCP_proxy](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/TCP_proxy.py)
 This tool will act like a proxy. This has many usefull examples like acting like a FTP server.
 - Usage: python3 TCP_proxy.py [target] [port] [remote server] [remote port] [receive first]
 - Example: python3 TCP_proxy.py 192.168.1.203 21 ftp.sun.ac.za 21 True.
 
 [Receive first] must be True for FTP servers. Because most FTP servers first send a banner when connecting to it.
 
-### ["netcat"](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/netcat.py)
+### [netcat](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/netcat.py)
 - here
 
 ## Prerequisites
