@@ -1,5 +1,5 @@
 # PynetTools
-Some usefull network tools for when you do not have access to basic tools.
+Some usefull network tools for when you do not have access to basic network pentest tools.
 
 <img src="Images/snake.png">
 
