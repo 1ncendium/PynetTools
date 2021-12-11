@@ -1,14 +1,14 @@
 # PynetTools
-Windows and Linux script that gives a quick overview of what is going on, on a particular system.
+Some usefull network tools for when you do not have access to basic tools like netcat. You can also quickly setup a TCP server / client.
+
+<img src="Images/snake.png">
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-* You have access to a Windows OR Linux machine.
-* If using Windows: Make sure you have a Windows machine that has the right to run PowerShell scripts.
-* If using Linux: Make sure you have Python 3 installed on the machine.
+- Python 3.6+
 
-## Installing QuickOS Info
+## Downloading the tools
 
 Linux :
 ```
@@ -19,7 +19,7 @@ Windows :
 Download the repository from https://github.com/1ncendium/Quick-OS-Info/archive/main.zip
 ```
 
-## Using QuickOS Info
+## Using PynetTools
 
 Linux :
 ```
