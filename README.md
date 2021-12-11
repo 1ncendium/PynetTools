@@ -15,7 +15,7 @@ Quickly setup your UDP_client, you can fill in the data that you want to send to
 - Example: python3 UDP_client.py 192.168.101.8 5555
 
 ### [TCP_server](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/TCP_server.py)
-Quickly setup your TCP_server, this script starts a listener for incoming requests
+Quickly setup your TCP_server, this script starts a listener for incoming requests.
 - Usage: python3 TCP_server.py [target] [port]
 - Example: python3 TCP_server.py 192.168.101.8 5555
 
