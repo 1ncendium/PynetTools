@@ -27,7 +27,14 @@ This tool will act like a proxy. This has many usefull examples like acting like
 [Receive first] must be True for FTP servers. Because most FTP servers first send a banner when connecting to it.
 
 ### [netcat](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/netcat.py)
-- here
+netcat like the famous netcat tool, can be used for reading from and writing to network connections.
+
+Examples:
+            netcat.py -t 192.168.1.108 -p 5555 -l -c # command shell
+            netcat.py -t 192.168.1.108 -p 5555 -l -u=mytest.txt # upload to file
+            netcat.py -t 192.168.1.108 -p 5555 -l -e \"cat /etc/passwd\" # execute command
+            echo 'ABC' | ./netcat.py -t 192.168.1.108 -p 135 # echo text to server port 135
+            netcat.py -t 192.168.1.108 -p 5555 # connect to server
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
