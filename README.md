@@ -33,7 +33,7 @@ Netcat like the famous netcat tool, can be used for reading from and writing to 
 - -h / --help | for help.
 - -c for command shell
 - -e / --execute for executing commands
-- -l / for listening mode
+- -l / listening mode
 - -p / --port specify port
 - -t / --target specify target
 - -u / --upload for uploading files
