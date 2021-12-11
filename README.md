@@ -52,3 +52,6 @@ Windows :
 ```
 Download the repository from https://github.com/1ncendium/PynetTools/archive/refs/heads/main.zip
 ```
+
+### Disclaimer
+All of the tools are inspired by the book, Black Hat Python 2nd edition. But I've given my own touch to it.
