@@ -1,7 +1,7 @@
 # PynetTools
 Some usefull network tools for when you do not have access to basic tools like netcat. You can also quickly setup a TCP server / client.
 
-<img src="images/snake.png">
+<img src="Images/snake.png">
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
