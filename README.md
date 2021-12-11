@@ -23,6 +23,7 @@ Quickly setup your TCP_server, this script starts a listener for incoming reques
 This tool will act like a proxy. This has many usefull examples like acting like a FTP server.
 - Usage: python3 TCP_proxy.py [target] [port] [remote server] [remote port] [receive first]
 - Example: python3 TCP_proxy.py 192.168.1.203 21 ftp.sun.ac.za 21 True.
+
 [Receive first] must be True for FTP servers. Because most FTP servers first send a banner when connecting to it.
 
 ## Prerequisites
