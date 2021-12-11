@@ -5,10 +5,20 @@ Some usefull network tools for when you do not have access to basic tools like n
 
 ## Tools included
 ### TCP_client
-Create 
+Quickly setup your TCP_client, you can fill in the data that you want to send to the server.
+- Usage: python3 TCP_client.py [target] [port]
+- Example: python3 TCP_client.py 192.168.101.8 5555
 
-- UDP_client
-- TCP_server
+### UDP_client
+Quickly setup your UDP_client, you can fill in the data that you want to send to the server.
+- Usage: python3 UDP_client.py [target] [port]
+- Example: python3 UDP_client.py 192.168.101.8 5555
+
+### TCP_server
+Quickly setup your TCP_server, this script starts a listener for incoming requests
+- Usage: python3 TCP_server.py [target] [port]
+- Example: python3 TCP_server.py 192.168.101.8 5555
+*
 - TCP_proxy
 - netcat
 
