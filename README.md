@@ -27,7 +27,7 @@ This tool will act like a proxy. This has many usefull examples like acting like
 [Receive first] must be True for FTP servers. Because most FTP servers first send a banner when connecting to it.
 
 ### [netcat](https://github.com/1ncendium/PynetTools/blob/main/PynetTools/netcat.py)
-netcat like the famous netcat tool, can be used for reading from and writing to network connections.
+Netcat like the famous netcat tool, can be used for reading from and writing to network connections.
 
 - Usage: python3 netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]
 - -h / --help | for help.
