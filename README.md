@@ -3,6 +3,13 @@ Some usefull network tools for when you do not have access to basic tools like n
 
 <img src="Images/snake.png">
 
+## Tools
+- TCP_client
+- UDP_client
+- TCP_server
+- TCP_proxy
+- netcat
+
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
