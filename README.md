@@ -18,9 +18,12 @@ Quickly setup your UDP_client, you can fill in the data that you want to send to
 Quickly setup your TCP_server, this script starts a listener for incoming requests
 - Usage: python3 TCP_server.py [target] [port]
 - Example: python3 TCP_server.py 192.168.101.8 5555
-*
-- TCP_proxy
-- netcat
+
+### TCP_proxy
+This tool will act like a proxy. This has many usefull examples like acting like a FTP server.
+- Usage: python3 TCP_proxy.py [target] [port] [remote server] [remote port] [receive first]
+- Example: python3 TCP_proxy.py 192.168.1.203 21 ftp.sun.ac.za 21 True
+[Receive first] must be True for FTP servers. Because most FTP servers first send a banner when connecting to it.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
