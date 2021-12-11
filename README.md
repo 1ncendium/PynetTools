@@ -38,6 +38,23 @@ Netcat like the famous netcat tool, can be used for reading from and writing to 
 - -t / --target specify target
 - -u / --upload for uploading files
 
+Example to setup a reverse shell:
+- Server: python3 netcat.py -t 192.168.178.88 -l -p 5555 -c
+- Client: python3 netcat.py -t 192.168.178.88 -p 5555
+
+Now the client will receive a shell from the server and can interact with it.
+
+- Steps:
+
+1.0 Setup the server listener + -c parameter for command shell
+<img src="Images/server.png">
+
+2.0 Setup the client to connect to that command shell of the server
+<img src="Images/client_1.png">
+
+3.0 Specify EOF with CTRL + D in order to receive the command shell
+<img src="Images/client_2.png">
+
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
