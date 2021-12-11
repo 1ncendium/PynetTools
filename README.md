@@ -35,27 +35,9 @@ Before you begin, ensure you have met the following requirements:
 
 Linux :
 ```
-git clone https://github.com/1ncendium/Quick-OS-Info.git
+git clone https://github.com/1ncendium/PynetTools.git
 ```
 Windows :
 ```
-Download the repository from https://github.com/1ncendium/Quick-OS-Info/archive/main.zip
-```
-
-## Using PynetTools
-
-Linux :
-```
-chmod +x quickosinfo.py
-```
-```
-python3 quickosinfo.py
-```
-Windows (Interactive mode) :
-```
-right click on quick_os_info_interactive -> "Run with PowerShell"
-```
-Windows :
-```
-Start PowerShell -> cd to QuickOS Info directory -> ./quick_os_info.ps1
+Download the repository from https://github.com/1ncendium/PynetTools/archive/refs/heads/main.zip
 ```
