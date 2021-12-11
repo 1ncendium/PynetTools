@@ -1,4 +1,4 @@
-# TCP_server.py
+# UDP_client.py
 # Need to quickly setup a UDP_client for whatever reason? Here you go.
 # Part of the PynetTools repository, https://github.com/1ncendium/PynetTools
 # Author: Incendium
